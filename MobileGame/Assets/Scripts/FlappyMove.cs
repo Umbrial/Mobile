@@ -21,6 +21,7 @@ public class FlappyMove : MonoBehaviour {
 
         GetComponent<Rigidbody2D>().velocity = move;
 
+
         if (Input.anyKeyDown)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpSpeed));

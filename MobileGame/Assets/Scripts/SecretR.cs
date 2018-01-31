@@ -10,7 +10,7 @@ public class SecretR : MonoBehaviour {
     {
         if (collision.gameObject.name == "WallTrig")
         {
-            Wall.GetComponent<Canvas>().enabled = true;
+            Wall.GetComponent<Canvas>().enabled = false;
         }
     }
 
@@ -18,7 +18,7 @@ public class SecretR : MonoBehaviour {
     {
         if (collision.gameObject.name == "WallTrig")
         {
-            Wall.GetComponent<Canvas>().enabled = true;
+            Wall.GetComponent<Canvas>().enabled = false;
         }
     }
 
@@ -26,7 +26,7 @@ public class SecretR : MonoBehaviour {
     {
         if (collision.gameObject.name == "WallTrig")
         {
-            Wall.GetComponent<Canvas>().enabled = false;
+            Wall.GetComponent<Canvas>().enabled = true;
         }
     }
 
