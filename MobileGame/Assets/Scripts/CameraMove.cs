@@ -10,6 +10,7 @@ public class CameraMove : MonoBehaviour {
     public float chaseSpeed = 2.0f;
     public float chaseTriggerDistance = 200f;
     private Vector3 startPosition;
+    
 
     // Use this for initialization
     void Start()
@@ -33,7 +34,7 @@ public class CameraMove : MonoBehaviour {
         if (timer >= 0.5)
         {
             walking = true;
-            input_x = 1;
+           // input_x = 1;
         }
 
         if (walking)
@@ -41,6 +42,12 @@ public class CameraMove : MonoBehaviour {
             //anim.SetFloat("x", input_x);
             //anim.SetFloat("y", input_y);
         }
+
+        
+           
+        
+
+       
 
         //anim.SetBool("walking", walking);
         Vector3 playerPosition = player.transform.position;
@@ -53,6 +60,23 @@ public class CameraMove : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = chaseDirection * chaseSpeed;
          }
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player") 
+        {
+            chaseSpeed = 0;
+           
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            chaseSpeed = 0;
+        }
     }
 
 }
