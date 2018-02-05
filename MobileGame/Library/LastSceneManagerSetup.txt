@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/BL.unity
+- path: Assets/Scenes/Easy/Scene1.unity
   isLoaded: 1
   isActive: 1
