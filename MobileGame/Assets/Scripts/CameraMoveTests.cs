@@ -17,9 +17,10 @@ public class CameraMoveTests : MonoBehaviour {
         //anim = GetComponent<Animator>();
         startPosition = transform.position;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         timer += Time.deltaTime;
 
         Vector2 vel = gameObject.GetComponent<Rigidbody2D>().velocity;
@@ -39,7 +40,7 @@ public class CameraMoveTests : MonoBehaviour {
             //anim.SetFloat("x", input_x);
             //anim.SetFloat("y", input_y);
         }
-        
+
         //anim.SetBool("walking", walking);
         Vector3 playerPosition = player.transform.position;
         Vector2 chaseDirection = new Vector2(playerPosition.x - transform.position.x,
@@ -51,14 +52,6 @@ public class CameraMoveTests : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = chaseDirection * chaseSpeed;
         }
 
-    }
-
-    void OnCollisionEnter2D(Collision2D mycollisionInfo)
-    {
-        if(mycollisionInfo == player)
-        {
-
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
