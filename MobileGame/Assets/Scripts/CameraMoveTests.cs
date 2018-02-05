@@ -53,11 +53,11 @@ public class CameraMoveTests : MonoBehaviour {
 
     }
 
-    void OnCollisionEnter2D(Collision2D mycollisionInfo)
+    void OnTriggerEnter2D(Collision2D mycollisionInfo)
     {
-        if(mycollisionInfo == player)
+        if(mycollisionInfo.gameObject.tag == "Player")
         {
-
+            chaseSpeed = 0;
         }
     }
 
