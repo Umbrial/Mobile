@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMoveTests : MonoBehaviour {
+public class MainMenuCameraMovment : MonoBehaviour {
 
     private float timer = 0.0f;
     public bool walking;
@@ -11,8 +11,10 @@ public class CameraMoveTests : MonoBehaviour {
     public float chaseTriggerDistance = 200f;
     private Vector3 startPosition;
 
+
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         //assumes script is attached to player, or an animated object
         //anim = GetComponent<Animator>();
         startPosition = transform.position;
@@ -52,31 +54,5 @@ public class CameraMoveTests : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = chaseDirection * chaseSpeed;
         }
 
-    }
-
-
-  /*  void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            chaseSpeed = 0;
-        }
-    } */
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            chaseSpeed = 0;
-
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            chaseSpeed = 0;
-        }
     }
 }
