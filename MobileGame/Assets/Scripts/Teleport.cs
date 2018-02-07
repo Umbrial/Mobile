@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour {
 
-    public float[] TeleportX = new float[9];
-    public float[] TeleportY = new float[9];
+    
     public Vector3[] positions;
     private int index = 0;
 
@@ -21,8 +20,9 @@ public class Teleport : MonoBehaviour {
         {
             index++;
             transform.position = positions[index];
+            Debug.Log("Were on: " + index);
         }
-		//transform.position = new Vector3(0, 0, 0);
-        //Debug.Log("It Worked, sorta");
+		
+      
 	}
 }

@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 36148433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.03, y: -2, z: 0}
+  m_LocalPosition: {x: 59.96, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -213,33 +213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462159b92f662824288a1c15fc59b943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TeleportX:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  TeleportY:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
   positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 59.03, y: -14.19, z: 0}
-  - {x: -11.3, y: -14.19, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 59.03, y: -15, z: 0}
+  - {x: -11.77, y: -15, z: 0}
+  - {x: -11.77, y: -24.05, z: 0}
+  - {x: 58.01, y: -24.05, z: 0}
+  - {x: 58.01, y: -33.48, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
@@ -869,7 +849,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 400041644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 242.8, z: 0}
+  m_LocalPosition: {x: 0, y: 207.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2144413495}
@@ -61923,7 +61903,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036550004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.000015258789, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2144413495}
@@ -62424,7 +62404,7 @@ RectTransform:
   m_GameObject: {fileID: 2144413491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.12, y: -1.97, z: 90}
-  m_LocalScale: {x: 0.021526499, y: 0.021526499, z: 0.021526499}
+  m_LocalScale: {x: 0.024685524, y: 0.024685524, z: 0.024685524}
   m_Children:
   - {fileID: 95871826}
   - {fileID: 2036550005}
