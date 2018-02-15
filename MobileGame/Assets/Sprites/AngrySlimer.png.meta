@@ -1,11 +1,12 @@
 fileFormatVersion: 2
-guid: 430a7140dd098564b8962af6baa2a144
-timeCreated: 1518544811
+guid: fb6a0d90b6e274046b9797b70a6b90d7
+timeCreated: 1518627026
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: AngrySlimer_0
     21300002: AngrySlimer_1
+    21300004: AngrySlimer_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,6 +121,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 36
+        y: 0
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AngrySlimer_2
+      rect:
+        serializedVersion: 2
+        x: 72
         y: 0
         width: 36
         height: 36
