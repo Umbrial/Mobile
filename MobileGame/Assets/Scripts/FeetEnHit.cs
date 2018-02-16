@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHit : MonoBehaviour {
+public class FeetEnHit : MonoBehaviour {
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() { 
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Blossom")
         {
-            transform.GetComponent<MovementWithFeet>().Bloomings();
+            transform.parent.GetComponent<MovementWithFeet>().Bloomings();
         }
     }
 
@@ -21,7 +21,7 @@ public class EnemyHit : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Blossom")
         {
-            transform.GetComponent<MovementWithFeet>().Bloomings();
+            transform.parent.GetComponent<MovementWithFeet>().Bloomings();
         }
     }
 }

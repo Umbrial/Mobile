@@ -11,7 +11,6 @@ public class Batses : MonoBehaviour {
     private bool home = true;
     public Vector3 paceDirection = new Vector3(0f, 0f, 0f);
     public float paceDistance = 3.0f;
-    public float jumpSpeed = 1.2f;
 
     public float timer;
     // Use this for initialization
@@ -68,10 +67,5 @@ public class Batses : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = paceDirection * chaseSpeed;
         }
 
-     /*   if (timer >= 5)
-        {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100 * jumpSpeed));
-            timer = 0;
-        } */
     }
 }
