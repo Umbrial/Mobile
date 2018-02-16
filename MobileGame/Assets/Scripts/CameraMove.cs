@@ -26,33 +26,19 @@ public class CameraMove : MonoBehaviour {
         timer += Time.deltaTime;
 
         Vector2 vel = gameObject.GetComponent<Rigidbody2D>().velocity;
-        float input_x = vel.x;//Input.GetAxisRaw("Horizontal");
-        float input_y = vel.y;//Input.GetAxisRaw("Vertical");
-
-        //bool walking = (Mathf.Abs(input_x) + Mathf.Abs(input_y) > 0);
+        float input_x = vel.x;
+        float input_y = vel.y;
 
         if (timer >= 0.5)
         {
             walking = true;
-           // input_x = 1;
         }
-
-        if (walking)
-        {
-            //anim.SetFloat("x", input_x);
-            //anim.SetFloat("y", input_y);
-        }
-
         
-           
-        
-
-       
-
         //anim.SetBool("walking", walking);
         Vector3 playerPosition = player.transform.position;
         Vector2 chaseDirection = new Vector2(playerPosition.x - transform.position.x,
                                                 playerPosition.y - transform.position.y);
+
         if (chaseDirection.magnitude < chaseTriggerDistance && walking == true)
         {
             //player gets too close to the enemy
@@ -64,7 +50,7 @@ public class CameraMove : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") 
+        if (collision.gameObject.tag == "Finish") 
         {
             chaseSpeed = 0;
            
@@ -73,7 +59,7 @@ public class CameraMove : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Finish")
         {
             chaseSpeed = 0;
         }
