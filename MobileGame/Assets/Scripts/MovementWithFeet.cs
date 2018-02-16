@@ -56,7 +56,12 @@ public class MovementWithFeet : MonoBehaviour {
         anim.SetBool("OnFloor", false);
     }
 
-
+    public void Bloomings ()
+    {
+        moveSpeed = 0;
+        jumpSpeed = 0;
+        anim.SetBool("Bloom", true);
+    }
 
 
 
