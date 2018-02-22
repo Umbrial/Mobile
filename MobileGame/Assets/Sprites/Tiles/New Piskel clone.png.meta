@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: bd5dd1364c97d1e44bdaf4efcefd8d25
-timeCreated: 1519151082
+guid: 4c5a528007215774bb4c4a9040350bae
+timeCreated: 1519236652
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BatteryLava_0
-    21300002: BatteryLava_1
-    21300004: BatteryLava_2
-    21300006: BatteryLava_3
-    21300008: BatteryLava_4
-    21300010: BatteryLava_5
+    21300000: New Piskel clone_0
+    21300002: New Piskel clone_1
+    21300004: New Piskel clone_2
+    21300006: New Piskel clone_3
+    21300008: New Piskel clone_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -66,7 +65,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -76,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BatteryLava_0
+      name: New Piskel clone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,7 +119,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BatteryLava_1
+      name: New Piskel clone_1
       rect:
         serializedVersion: 2
         x: 36
@@ -134,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BatteryLava_2
+      name: New Piskel clone_2
       rect:
         serializedVersion: 2
         x: 0
@@ -148,7 +147,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BatteryLava_3
+      name: New Piskel clone_3
       rect:
         serializedVersion: 2
         x: 36
@@ -162,24 +161,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BatteryLava_4
+      name: New Piskel clone_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: BatteryLava_5
-      rect:
-        serializedVersion: 2
-        x: 36
         y: 0
         width: 36
         height: 36
