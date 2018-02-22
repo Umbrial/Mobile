@@ -12,7 +12,6 @@ public class Batses : MonoBehaviour {
     public Vector3 paceDirection = new Vector3(0f, 0f, 0f);
     public float paceDistance = 3.0f;
 
-    public float timer;
     // Use this for initialization
     void Start()
     {
@@ -24,9 +23,7 @@ public class Batses : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
-        timer += Time.deltaTime;
-
+        
         Vector3 playerPosition = player.transform.position;
         Vector2 chaseDirection = new Vector2(playerPosition.x - transform.position.x,
                                                 playerPosition.y - transform.position.y);

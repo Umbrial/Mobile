@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Hard/Lvl3H.unity
+- path: Assets/Scenes/Hard/Lvl2H.unity
   isLoaded: 1
   isActive: 1

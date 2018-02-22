@@ -478,6 +478,18 @@ Prefab:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114158013703421204, guid: ac24b8fff4e1de446b73c29fad7ea59f,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 51bb523de15a0f74998c12f77a30acff,
+        type: 3}
+    - target: {fileID: 114774995403282556, guid: ac24b8fff4e1de446b73c29fad7ea59f,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51bb523de15a0f74998c12f77a30acff,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac24b8fff4e1de446b73c29fad7ea59f, type: 2}
   m_IsPrefabParent: 0
@@ -700,10 +712,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -1827,12 +1839,12 @@ Prefab:
         type: 2}
       propertyPath: Right
       value: 
-      objectReference: {fileID: 1005567640}
+      objectReference: {fileID: 0}
     - target: {fileID: 114444500846886794, guid: ce35e8ebed33cd4419615c5937cb7acf,
         type: 2}
       propertyPath: Left
       value: 
-      objectReference: {fileID: 1005567641}
+      objectReference: {fileID: 0}
     - target: {fileID: 114184458538911076, guid: ce35e8ebed33cd4419615c5937cb7acf,
         type: 2}
       propertyPath: Timey
@@ -5971,16 +5983,6 @@ Tilemap:
     m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
---- !u!1 &1005567640 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1430695214426976, guid: ac24b8fff4e1de446b73c29fad7ea59f,
-    type: 2}
-  m_PrefabInternal: {fileID: 39919889}
---- !u!1 &1005567641 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1769640824295362, guid: ac24b8fff4e1de446b73c29fad7ea59f,
-    type: 2}
-  m_PrefabInternal: {fileID: 39919889}
 --- !u!1 &1008923562
 GameObject:
   m_ObjectHideFlags: 0
