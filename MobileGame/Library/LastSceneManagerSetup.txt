@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/Moderate/Lvl2M.unity
+=======
 - path: Assets/Scenes/Hard/Lvl2H.unity
+>>>>>>> 296ee7db44ec198232ec676f123591106210affe
   isLoaded: 1
   isActive: 1
