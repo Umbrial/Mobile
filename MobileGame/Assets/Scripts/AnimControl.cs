@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityStandardAssets.CrossPlatformInput;
 public class AnimControl : MonoBehaviour {
 
     Animator anim;
@@ -17,7 +17,7 @@ public class AnimControl : MonoBehaviour {
 
         //Get axis raw gives us baase values, ignoring how long
         //the button has been pressed, so we only get -1, 1, or 0
-        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveX = CrossPlatformInputManager.GetAxisRaw("Horizontal");
         anim.SetFloat("x", moveX);
         
         //if moveX = 0 we are not getting any user input

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class MovementWithFeet : MonoBehaviour {
 
@@ -21,18 +22,18 @@ public class MovementWithFeet : MonoBehaviour {
     void Update()
     {
 
-        float moveX = Input.GetAxis("Horizontal");
+        float moveX = CrossPlatformInputManager.GetAxis("Horizontal");
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
         velocity.x = moveSpeed * moveX;
         GetComponent<Rigidbody2D>().velocity = velocity;
 
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && grounded)
         {
             anim.SetBool("isJump", true);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100 * jumpSpeed));
         }
 
-        if (Input.GetButtonDown("Jump") && !grounded && !DoubleJump)
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && !grounded && !DoubleJump)
         {
             anim.SetBool("isJump", true);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 50 * jumpSpeed));
