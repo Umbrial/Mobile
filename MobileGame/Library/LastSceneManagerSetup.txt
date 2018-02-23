@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/GableTest.unity
+=======
 - path: Assets/Scenes/Easy/Lvl3E.unity
+>>>>>>> 43aba8098728602e5de0d896bcdb9e721cbe0a2c
   isLoaded: 1
   isActive: 1
