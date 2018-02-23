@@ -14,3 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BL.unity
     guid: bcd74ca8d92d76e498acfff4f1db4c75
+  - enabled: 1
+    path: Assets/Scenes/Easy/Lvl2E.unity
+    guid: d6d788536c95c474e80986893619b090
+  - enabled: 1
+    path: Assets/Scenes/Easy/Lvl3E.unity
+    guid: c55a989e72425ae4e8cb3026ff353714
+  - enabled: 1
+    path: Assets/Scenes/Hard/Lvl1H.unity
+    guid: c96f2759b2260724bbfa5507150ffe42
+  - enabled: 1
+    path: Assets/Scenes/Hard/Lvl2H.unity
+    guid: e6676690fc88bb34293f370582c64b7d
+  - enabled: 1
+    path: Assets/Scenes/Hard/Lvl3H.unity
+    guid: f1a49e8b461d9634683a631d0ec4099c

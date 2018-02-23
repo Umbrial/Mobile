@@ -12,11 +12,11 @@ public class MainMenus : MonoBehaviour {
 
     public void Moderate()
     {
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("Lvl1M");
     }
 
     public void Hard()
     {
-        SceneManager.LoadScene("Level7");
+        SceneManager.LoadScene("Lvl1H");
     }
 }
