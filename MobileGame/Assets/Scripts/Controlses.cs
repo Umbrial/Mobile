@@ -14,18 +14,12 @@ public class Controlses : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("OnPc") == 1)
         {
-            Right.GetComponent<Button>().enabled = false;
-            Right.GetComponent<Image>().enabled = false;
-            Left.GetComponent<Button>().enabled = false;
-            Left.GetComponent<Image>().enabled = false;
+            Debug.Log("Mobile");
         }
 
         if (PlayerPrefs.GetInt("OnPc") == 0)
         {
-            Right.GetComponent<Button>().enabled = true;
-            Right.GetComponent<Image>().enabled = true;
-            Left.GetComponent<Button>().enabled = true;
-            Left.GetComponent<Image>().enabled = true;
+            Debug.Log("PC");
         }
     }
 }
