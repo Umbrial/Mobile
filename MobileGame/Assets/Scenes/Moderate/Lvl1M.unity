@@ -38368,63 +38368,13 @@ Transform:
   m_PrefabParentObject: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd,
     type: 2}
   m_PrefabInternal: {fileID: 1232840704}
-<<<<<<< HEAD
---- !u!1001 &1307218751
-=======
+
 --- !u!1001 &1247578261
->>>>>>> ce70f4b3c693e11865b6117bd6fc87f69d38251e
+
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-    m_TransformParent: {fileID: 1807359746}
-    m_Modifications:
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 33.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.2421875
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_RootOrder
-      value: 59
-      objectReference: {fileID: 0}
-    - target: {fileID: 1123443381641724, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-      propertyPath: m_Name
-      value: Coin2 (59)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 989253be601e2d44cb495a1973d49fcd, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1331150539 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd,
-    type: 2}
-  m_PrefabInternal: {fileID: 1904556541}
-=======
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 224294855069079714, guid: 0257cc56cb6f5ad4aa56104088fa710c,
@@ -38520,7 +38470,6 @@ Transform:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0257cc56cb6f5ad4aa56104088fa710c, type: 2}
   m_IsPrefabParent: 0
->>>>>>> ce70f4b3c693e11865b6117bd6fc87f69d38251e
 --- !u!4 &1332178104 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4120317975066280, guid: 989253be601e2d44cb495a1973d49fcd,
