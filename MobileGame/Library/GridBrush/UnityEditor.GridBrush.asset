@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Cells:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_Tile: {fileID: 11400000, guid: 94bdd7c637392a645a638e04f084db0c, type: 2}
 =======
 <<<<<<< HEAD
@@ -29,6 +30,9 @@ MonoBehaviour:
 >>>>>>> bbeca60dd862e646ce4866ab3cf03b441c4de2cb
 >>>>>>> fcf3e96e6141004c06b0ec780513ec797825d6e4
 >>>>>>> ce70f4b3c693e11865b6117bd6fc87f69d38251e
+=======
+  - m_Tile: {fileID: 0}
+>>>>>>> 0de8c246882cbc5ef7eff925cd551ec8d30c49ef
     m_Matrix:
       e00: 1
       e01: 0
